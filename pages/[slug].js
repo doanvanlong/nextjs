@@ -4,21 +4,21 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 
 export default function Page({ data }) {
-    const router = useRouter()
+    // const router = useRouter()
 
-    // // Make sure we're in the browser
-    // if (typeof window !== 'undefined') {
-    //     router.push(data.url);
-    // }
+    // // // Make sure we're in the browser
+    // // if (typeof window !== 'undefined') {
+    // //     router.push(data.url);
+    // // }
     
-    return (
-        <Head>
-            <meta property="og:image" content={data.image} />
-            <meta property="og:title" content={data.title} />
-            <meta property="og:url" content={data.url} />
-            <meta property="og:description" content={data.description} />
-        </Head>
-    )
+    // return (
+    //     <Head>
+    //         <meta property="og:image" content={data.image} />
+    //         <meta property="og:title" content={data.title} />
+    //         <meta property="og:url" content={data.url} />
+    //         <meta property="og:description" content={data.description} />
+    //     </Head>
+    // )
 }
 
 export async function getServerSideProps({ params }) {

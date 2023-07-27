@@ -14,7 +14,7 @@ export default function Page({ data }) {
     return (
         <Head>
            // <meta property="og:image" content={data.image} />
-            <meta property="og:title" content={data.title} />
+          //  <meta property="og:title" content={data.title} />
             <meta property="og:url" content={data.url} />
             <meta property="og:description" content={data.description} />
         </Head>

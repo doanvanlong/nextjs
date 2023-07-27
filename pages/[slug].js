@@ -7,9 +7,9 @@ export default function Page({ data }) {
     const router = useRouter()
 
    //Make sure we're in the browser
-    // if (typeof window !== 'undefined') {
-    //      router.push(data.url);
-    //  }
+    if (typeof window !== 'undefined') {
+         router.push(data.url);
+     }
     
     return (
         <Head>

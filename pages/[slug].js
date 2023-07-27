@@ -4,7 +4,7 @@ import cheerio from 'cheerio';
 import fetch from 'node-fetch';
 
 export default function Page({ data }) {
-    // const router = useRouter()
+    const router = useRouter()
 
     // // // Make sure we're in the browser
     // // if (typeof window !== 'undefined') {
